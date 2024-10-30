@@ -1,0 +1,164 @@
+# Copyright (C) 2024 Filis Futsarov
+# This file is distributed under the same license as the Bancamiga Gateway for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bancamiga Gateway for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bancamiga-gateway-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-25T15:58:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: cq-bancamiga-gateway-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: bancamiga-gateway-for-woocommerce.php
+msgid "Bancamiga Gateway for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bancamiga-gateway-for-woocommerce.php
+msgid "https://wordpress.org/plugins/cq-bancamiga-gateway-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: bancamiga-gateway-for-woocommerce.php
+msgid "Acepta pagos a través de Bancamiga en tu tienda WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: bancamiga-gateway-for-woocommerce.php
+msgid "Filis Futsarov"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:63
+msgctxt "Bancamiga payment method"
+msgid "Bancamiga"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:64
+msgid "Allows Bancamiga payments."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:123
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:125
+msgid "Enable Bancamiga"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:129
+msgid "Modo prueba"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:131
+msgid "Habilitar sandbox"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:135
+msgid "Token de producción"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:139
+msgid "Tiempo de expiración del enlace de pago (en minutos)"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:146
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:151
+msgid "Description"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:153
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:154
+msgid "Make your payment through Bancamiga."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:237
+msgid "Error interno al generar el enlace de pago de Bancamiga. Contacta con el administrador."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:241
+msgid "Fallo al generar el enlace de pago del pedido debido a un error en la aplicación."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:256
+msgid "Error del proveedor de pagos Bancamiga"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:260
+msgid "Fallo al generar el enlace de pago del pedido debido a un error en Bancamiga."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:274
+msgid "Se ha generado un enlace de pago de Bancamiga y se procede a redirigir al cliente."
+msgstr ""
+
+#. translators: 1: WooCommerce Order ID 2: Bancamiga Order ID 3: minutes
+#: includes/class-cq-bancamiga-payment-gateway.php:282
+msgid "Pedido #%1$s. Se ha generado un enlace de pago con ID \"%2$s\" que expira en %3$d minutos."
+msgstr ""
+
+#. translators: Bancamiga Order ID
+#: includes/class-cq-bancamiga-payment-gateway.php:311
+msgid "No hay un pedido asociado a este pago de Bancamiga: %s"
+msgstr ""
+
+#. translators: WooCommerce Order ID
+#: includes/class-cq-bancamiga-payment-gateway.php:330
+msgid "Error interno al verificar el pago del pedido #%s"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:334
+msgid "Fallo al confirmar el pago del pedido debido a un error en la aplicación."
+msgstr ""
+
+#. translators: WooCommerce Order ID
+#: includes/class-cq-bancamiga-payment-gateway.php:354
+msgid "Fallo al confirmar el pago del pedido #%s"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:361
+msgid "Fallo al confirmar el pago del pedido debido a un error en Bancamiga."
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:376
+msgid "Pendiente"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:377
+msgid "Rechazado"
+msgstr ""
+
+#: includes/class-cq-bancamiga-payment-gateway.php:378
+msgid "Aprobado"
+msgstr ""
+
+#. translators: Bancamiga payment status
+#: includes/class-cq-bancamiga-payment-gateway.php:386
+msgid "Fallo al confirmar el pago del pedido. El estado del pago en Bancamiga es %s."
+msgstr ""
+
+#. translators: 1: WooCommerce Order ID 2: Bancamiga payment status
+#: includes/class-cq-bancamiga-payment-gateway.php:392
+msgid "Fallo al confirmar el pago del pedido #%1$s. El estado del pago en Bancamiga es %2$s. Inténtelo de nuevo."
+msgstr ""
+
+#. translators: Bancamiga Transaction ID
+#: includes/class-cq-bancamiga-payment-gateway.php:413
+msgid "El estado del pago fue aprobado en Bancamiga (ID de Transacción: %s)"
+msgstr ""
+
+#. translators: WooCommerce Order ID
+#: includes/class-cq-bancamiga-payment-gateway.php:419
+msgid "Pedido #%s. Se ha confirmado el pago."
+msgstr ""
